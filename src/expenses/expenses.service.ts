@@ -53,7 +53,7 @@ export class ExpensesService {
       shopId,
       query,
       {
-        dateField: 'createdAt',
+        dateField: 'expense_date',
         searchField: 'description',
       },
     );
